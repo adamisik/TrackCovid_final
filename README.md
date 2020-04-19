@@ -6,7 +6,7 @@ One problem with COVID-19 is that infected people don't know when they should go
 # What it does
 Our idea was to focus on the app dev, as there are already functional bluetooth pulse oximeters in the market which can be used for the data generation. Also, there are apps (like Oximeter, Whoop) which can track metrics like SpO2, Respiratory rate or Pulse. However, they are not using any thresholding on these metrics and won't notify you when your oxygen levels are critical. This is our USP. We want to develop a thresholding algorithm, which would notify you when your health status is critical. If your health stats are in a dangerous zone, you will get a recommendation to contact your local physician, who will decide the further measures to take.
 
-# #How we built it
+# How we built it
 We used data from an israeli clinic which provided us with SpO2, Respitory and Pulse metrics. In Matlab AppDeveloper we created a thresholding algorithm to inform users about their current health status. There are three different states for each metric:
 1. Green = Metrics look good
 2. Orange = Pay attention
